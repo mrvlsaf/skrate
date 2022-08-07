@@ -1,0 +1,137 @@
+.main-home-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3em;
+}
+
+.logo-cont img {
+    width: 100px;
+    height: 100px;
+}
+
+.profile-cont {
+    display: flex;
+    align-items: center;
+}
+
+.profile-cont button,
+.profile-cont img,
+.profile-cont span {
+    margin: 0 0.5em;
+}
+
+.profile-cont button {
+    background: #4f65f6;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em 1.5em;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.main-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 13%;
+    /* padding: 0 1em; */
+}
+
+.sidebar div {
+    display: flex;
+    align-items: center;
+    padding: 0.5em 1em;
+}
+
+.active {
+    border-left: 5px solid #4f65f6;
+}
+
+.sidebar div img {
+    height: 30px;
+    width: 30px;
+    margin-right: 2em;
+}
+
+.second-container {
+    width: 43%;
+}
+
+.overview-cont,
+.upcoming-cont {
+    border-radius: 10px;
+    border: 1px solid #FDFDFD;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    padding: 1em;
+}
+
+.third-container {
+    width: 38%;
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid #FDFDFD;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+}
+
+.overview-item-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.overview-item-cont div {
+    width: 40%;
+    background: #f6f7ff;
+    border-radius: 5px;
+    /* font-size: 18px; */
+    font-weight: 500;
+    padding: 1em 0;
+    margin: 1em;
+    text-align: center;
+}
+
+.upcoming-card,
+.job-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 1.5em;
+    align-items: center;
+}
+
+.upcoming-card div {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-heading {
+    font-weight: 500;
+    font-size: 26px;
+    margin-bottom: 0.5em;
+}
+
+.job-item-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-card div {
+    display: flex;
+    flex-direction: column;
+}
+
+.f500 {
+    font-weight: 500;
+}

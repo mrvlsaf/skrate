@@ -1,0 +1,54 @@
+.main-container {
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-button-container {
+    padding: 4em 5em;
+}
+
+.sign-in-button {
+    background: #4f65f6;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em 3em;
+    text-align: center;
+    margin-top: 1.5em;
+    cursor: pointer;
+}
+
+.welcome-back-text {
+    font-weight: 500;
+    font-size: 22px;
+    color: #181818;
+    width: 203px;
+}
+
+.curve-image {
+    position: relative;
+    top: 0;
+}
+
+.cartoon-image {
+    width: 500px;
+    height: 300px;
+}
+
+.curve-image {
+    width: 500px;
+    height: 250px;
+}
+
+.right-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
