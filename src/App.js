@@ -4,8 +4,8 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Home from './components/Home'
-import SignIn from './components/SignIn'
+import Home from './components/Home/Home'
+import SignIn from './components/SignIn/SignIn'
 import { useState, useEffect } from 'react';
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from './components/Firebase/firebase'

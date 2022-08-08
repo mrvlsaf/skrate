@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3em;
+}
+
+.logo-cont img {
+    width: 100px;
+    height: 100px;
+}
+
+.profile-cont {
+    display: flex;
+    align-items: center;
+}
+
+.profile-cont button,
+.profile-cont img,
+.profile-cont span {
+    margin: 0 0.5em;
+}
+
+.profile-cont button {
+    background: #4f65f6;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em 1.5em;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}

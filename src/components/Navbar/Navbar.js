@@ -1,7 +1,7 @@
-import { auth } from './Firebase/firebase';
-import './Home.css';
-import logo from "../data/logo.png";
-import profile from "../data/profile-image.png";
+import { auth } from '../Firebase/firebase';
+import './Navbar.css';
+import logo from "../../data/logo.png";
+import profile from "../../data/profile-image.png";
 
 const Navbar = (props) => {
 

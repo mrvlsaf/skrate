@@ -1,9 +1,9 @@
 import './Home.css';
-import Overview from './Overview';
-import UpcomingSessions from './UpcomingSessions';
-import NewJobs from './NewJobs';
-import Navbar from './Navbar';
-import Sidebar from './Sidebar';
+import Overview from '../Overview/Overview';
+import UpcomingSessions from '../UpcomingSessions/UpcomingSessions';
+import NewJobs from '../NewJobs/NewJobs';
+import Navbar from '../Navbar/Navbar';
+import Sidebar from '../Sidebar/Sidebar';
 
 const Home = (props) => {
 

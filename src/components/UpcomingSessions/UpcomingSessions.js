@@ -1,6 +1,6 @@
-import './Home.css';
-import upcoming_img from "../data/upcoming-image.png";
-import upcoming_next from "../data/upcoming-arrow.png";
+import './UpcomingSessions.css';
+import upcoming_img from "../../data/upcoming-image.png";
+import upcoming_next from "../../data/upcoming-arrow.png";
 
 const UpcomingSessions = (props) => {
 
@@ -10,7 +10,7 @@ const UpcomingSessions = (props) => {
         <>
             <div className='upcoming-cont'>
                 <div className='home-heading'>Upcoming Sessions</div>
-                <div className='upcoming-item-cont'>
+                <div>
                     {
                         data.map((item, index) => {
                             return (
@@ -20,11 +20,11 @@ const UpcomingSessions = (props) => {
                                         <span className='f500'>{item.mentor_name}</span>
                                         <span>Flutter</span>
                                     </div>
-                                    <div>
+                                    <div className='incenter'>
                                         <span className='f500'>{item.timings}</span>
                                         <span>{item.date}</span>
                                     </div>
-                                    <div>{item.session_type}</div>
+                                    <div className={item.session_type}>{item.session_type}</div>
                                     <img src={upcoming_next} alt="image" />
                                 </div>
                             )

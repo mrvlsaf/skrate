@@ -1,6 +1,6 @@
-import './Home.css';
-import home from "../data/home-sidebar.png";
-import shuffle from "../data/shuffle-sidebar.png";
+import './Sidebar.css';
+import home from "../../data/home-sidebar.png";
+import shuffle from "../../data/shuffle-sidebar.png";
 
 const Sidebar = () => {
     return (

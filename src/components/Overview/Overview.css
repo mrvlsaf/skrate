@@ -1,0 +1,37 @@
+.overview-cont{
+    border-radius: 10px;
+    border: 1px solid #FDFDFD;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    padding: 1em;
+    margin-bottom: 1.5em;
+}
+
+.home-heading {
+    font-weight: 500;
+    font-size: 26px;
+    margin-bottom: 0.5em;
+}
+
+.overview-item-cont {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.overview-item-cont div {
+    width: 40%;
+    background: #f6f7ff;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 1em;
+    margin: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overview-item-cont div span {
+    color: #4f65f6;
+    font-size: 30px;
+}

@@ -1,6 +1,6 @@
-import './Home.css';
-import upcoming_img from "../data/upcoming-image.png";
-import upcoming_next from "../data/upcoming-arrow.png";
+import './NewJobs.css';
+import upcoming_img from "../../data/upcoming-image.png";
+import upcoming_next from "../../data/upcoming-arrow.png";
 
 const NewJobs = (props) => {
 

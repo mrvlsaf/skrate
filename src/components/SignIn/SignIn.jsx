@@ -1,8 +1,8 @@
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
-import { auth } from './Firebase/firebase';
-import logo from "../data/logo.png";
-import curve from "../data/right-container-top-curve.png"
-import cartoon from "../data/signin-cartoon.png"
+import { auth } from '../Firebase/firebase';
+import logo from "../../data/logo.png";
+import curve from "../../data/right-container-top-curve.png"
+import cartoon from "../../data/signin-cartoon.png"
 import './SignIn.css'
 
 const SignIn = () => {
